@@ -25,4 +25,4 @@ You are expected to choose one of the following projects to build for your capst
 
 Go through each of these and make a choice for what you would be building starting from next week for your capstone project. It is recommended that you choose a project that you are passionate about or solve a problem that you or people around you have.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5CkyTwBL_nE?si=CxcvbwwU0lPQxUpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5CkyTwBL_nE?si=CxcvbwwU0lPQxUpg" ></iframe>
