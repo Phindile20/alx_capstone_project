@@ -18,7 +18,8 @@ MySQL
 JavaScript
 API
 Git
-Project Options:
+
+<h3>Project Options:</h3>
 You are expected to choose one of the following projects to build for your capstone project. Each project focuses on different aspects of web development and provides an opportunity to showcase your proficiency in specific areas.
 
 Go through each of these and make a choice for what you would be building starting from next week for your capstone project. It is recommended that you choose a project that you are passionate about or solve a problem that you or people around you have.
