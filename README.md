@@ -10,6 +10,7 @@ The objective of the capstone project is to create a web development portfolio t
 </h3>Technologies required for the project</h3>
 To prove your understanding of what you have learned over the past couple of months, you are expected to build a capstone project. You are restricted to the use of technologies of technologies taught in this program:
 
+<ul>
 HTML
 CSS
 Python
@@ -18,7 +19,7 @@ MySQL
 JavaScript
 API
 Git
-
+</ul>
 <h3>Project Options:</h3>
 You are expected to choose one of the following projects to build for your capstone project. Each project focuses on different aspects of web development and provides an opportunity to showcase your proficiency in specific areas.
 
