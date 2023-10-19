@@ -16,31 +16,44 @@ The purpose of this this app is to help users keep track of their workouts, IBM,
 
 **BMI Calculator:**
 
-
+BMI calculates body fat based on height and weight that applies to adult men and women.
 
 **Water tracker:**
 
+The water tracker is used to notify users when to drink water. 
+
 **Workout videos:**
+
+Daily personalized workout videos to help our users meet their goal weight.
 
 **Sleep tracker:**
 
+The sleep tracker is used to moniter various sleep aspects ncluding the amount of time you are sleeping and how many times your sleep is disrupted each night.
+
 **Achievement tracker:**
+
+keeps track of the users progress.
 
 ## **Technologies used:**
 
 -htm
 -css
+-Javascript
 
 
 ## **Screenshots or Demo:**
 
-Not available yet.
+![Flowchart](flowchart.PNG)
 
 ## **Roadmap and future enhancements:**
 
 **1.Customized diet plans:**
 
-**2.SDK for wearable integration:**
+A eating plan that is customized to the users weight goal. 
+
+**2.link your wearable devices :**
+
+In the future youwill be able to link other devices to this application.
 
 ## **Contact information:**
 
