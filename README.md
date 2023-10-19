@@ -4,13 +4,19 @@
 
 **Project name:** Fitness one on one
 
-**Purpose and goals:** To help people start their weightloss journey
+**Purpose and goals:** 
+
+The purpose of this this app is to help users keep track of their workouts, IBM, and fitness journey. the main goal of our app is to provide the user with instructions and examples of one or more types of exercise and physical activity. 
 
 ## **Features and Functionality:**
 
 **Running feature:**
 
+
+
 **BMI Calculator:**
+
+
 
 **Water tracker:**
 
@@ -24,6 +30,7 @@
 
 -htm
 -css
+
 
 ## **Screenshots or Demo:**
 
@@ -40,3 +47,7 @@ Not available yet.
 Name: Phindile Ayanda Sibiya
 
 Email: phindileayandasibiya6@gmail.com
+
+twitter Username:  Phindileayanda7
+
+LinkedIn URL: https://www.linkedin.com/in/phindile-sibiya-15676114b/
