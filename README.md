@@ -12,7 +12,7 @@ The purpose of this this app is to help users keep track of their workouts, IBM,
 
 **Running feature:**
 
-
+The running tracker is used to track everything from speed and distance traveled to generate training plans or map out your course as you run.
 
 **BMI Calculator:**
 
@@ -36,16 +36,19 @@ keeps track of the users progress.
 
 ## **Technologies used:**
 
--htm
--css
--Javascript
-
+<li>
+htm<li>
+css<li>
+Javascript
+</li>
 
 ## **Screenshots or Demo:**
 
 ![Flowchart](flowchart.PNG)
 
 ![Demo](Capture.PNG)
+
+[Protoype](https://www.figma.com/proto/Ez3PmTYAyswLX1RF5g24Yq/Untitled?page-id=0%3A1&type=design&node-id=1-5&viewport=479%2C236%2C0.4&t=j0hSpkYFOsNuhPdE-1&scaling=min-zoom&mode=design)
 
 ## **Roadmap and future enhancements:**
 
@@ -65,4 +68,4 @@ Email: phindileayandasibiya6@gmail.com
 
 twitter Username:  Phindileayanda7
 
-LinkedIn URL: https://www.linkedin.com/in/phindile-sibiya-15676114b/
+LinkedIn URL: [linkedin](https://www.linkedin.com/in/phindile-sibiya-15676114b/)
