@@ -44,6 +44,7 @@ keeps track of the users progress.
 ## **Screenshots or Demo:**
 
 ![Flowchart](flowchart.PNG)
+![Demo](Capture.png)
 
 ## **Roadmap and future enhancements:**
 
