@@ -6,9 +6,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FITNESS ONE ON ONE</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
+  .header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)); url(images/image2.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .navbar {
+    width: 85;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 120px;
+    cursor: pointer;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .navbar ul li a {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0,5s;
+  }
+  
+  .navbar ul li:hover::after{
+      width: 100%;
+  }
+
+  body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+span{
+    color: red;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 50%;
+    background: black;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    background: black;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
+    </style>
+
+    <title>FITNESS ONE ON ONE</title>
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -16,7 +100,7 @@
     <div class="header">
 
       <div class="navbar">
-        <img src="logo.png" class="logo">
+        <img src="images/logo.png" class="logo">
         <ul>
           <li><a href="#">HOME</a></li>
           <li><a href="#">WORKOUT</a></li>
@@ -25,45 +109,18 @@
           <li><a href="#">SETTING</a></li>
         </ul>
 
-      </div>
-
-    </div>
-
-    <div id="container">
-      <h1>BMI Calculator</h1>
-      Height (in cm)
-      <input type="text" id="cm"><br /><br>
-      Weight (in kg)
-      <input type="text" id="kg">
-      <button id="calculate">Calculate</button>
-      <div id="result"></div>
-
-
-      <div id="guide">
-        <h2>BMI Guide</h2>
-        <p>Less Than 18.5 :- Underweight</p>
-        <p>18.5 - 24.9 :- Healthy</p>
-        <p>25.0 - 29.9 :- Overweight</p>
-        <p>30.0 - 34.9 :- Obesity (Class I)</p>
-        <p>35.0 - 39.9 :- Obesity (Class II)</p>
-        <p>More Than Equals To 40 :- Obesity (Class III)</p>
+        <div class="wrapper">
+          <p>Height in CM:
+              <input type="text" id="height"><br><span id="height_error"></span>
+          </p>
+  
+          <p>Weight in KG:
+              <input type="text" id="weight"><br><span id="weight_error"></span>
+          </p>
+  
+          <button id="btn">Calculate</button>
+          <p id="output"></p>
       </div>
     </div>
-
-    <section>
-
-      <div class="box">
-        <h3>newsletter</h3>
-        <p>subscribe for latest updates</p>
-        <form action="">
-          <input type="email" name="" class="email" placeholder="enter your email" id="">
-          <input type="submit" value="subscribe" class="btn">
-        </form>
-      </div>
-
-
-      <br>
-      <div class="credit">All rights reserved! </div>
-      </section>
       </body>
       </html>
