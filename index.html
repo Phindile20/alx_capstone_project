@@ -1,48 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FITNESS ONE ON ONE</title>
-    <style>
-        body {
-  background-image: url('images/image2.jpg');
-}
-    </style>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-</head>
-<body>
-    
-<header class="header">
+    <link rel="stylesheet" href="style.css">
 
-    <a href="#" class="logo"> <span>fitness one on one</span> </a>
+  </head>
 
-    <div id="menu-btn" class="fas fa-bars"></div>
+  <body>
 
-    <nav class="navbar">
-        <a href="#Home">home</a>
-        <a href="#Workout">workout</a>
-        <a href="#State">State</a>
-        <a href="#Notification">Notification</a>
-        <a href="#Setting">Setting</a>
-    </nav>
+    <div class="header">
 
-</header>
-<img src="/images/image2.jpg" alt="gold">
+      <div class="navbar">
+        <img src="logo.png" class="logo">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">WORKOUT</a></li>
+          <li><a href="#">STATE</a></li>
+          <li><a href="#">NOTIFICATION</a></li>
+          <li><a href="#">SETTING</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div id="container">
+      <h1>BMI Calculator</h1>
+      Height (in cm)
+      <input type="text" id="cm"><br /><br>
+      Weight (in kg)
+      <input type="text" id="kg">
+      <button id="calculate">Calculate</button>
+      <div id="result"></div>
 
 
-<div id="container">
-    <h1>BMI Calculator</h1>
-    Height (in cm)
-    <input type="text" id="cm" ><br/><br>
-    Weight (in kg)
-    <input type="text" id="kg" ><br><br>
-    <button id="calculate">Calculate</button>
-    <div id="result"></div>
-    
-
-    <div id="guide">
+      <div id="guide">
         <h2>BMI Guide</h2>
         <p>Less Than 18.5 :- Underweight</p>
         <p>18.5 - 24.9 :- Healthy</p>
@@ -50,43 +47,30 @@
         <p>30.0 - 34.9 :- Obesity (Class I)</p>
         <p>35.0 - 39.9 :- Obesity (Class II)</p>
         <p>More Than Equals To 40 :- Obesity (Class III)</p>
-    </div>
-</div>
-
-</section>
-
-<section>
-
-        <div class="box">
-            <div class="content">
-                <h3>Founder</h3>
-                <h4>Phindile Ayanda Sibiya</h4>
-            </div>
-        </div>
-
+      </div>
     </div>
 
-</section>
+    <section>
+
+      <div class="box">
+        <div class="content">
+          <h3>Founder</h3>
+          <h4>Phindile Ayanda Sibiya</h4>
         </div>
+      </div>
 
-        <div class="box">
-            <h3>newsletter</h3>
-            <p>subscribe for latest updates</p>
-            <form action="">
-                <input type="email" name="" class="email" placeholder="enter your email" id="">
-                <input type="submit" value="subscribe" class="btn">
-            </form>
-        </div>
+      <div class="box">
+        <h3>newsletter</h3>
+        <p>subscribe for latest updates</p>
+        <form action="">
+          <input type="email" name="" class="email" placeholder="enter your email" id="">
+          <input type="submit" value="subscribe" class="btn">
+        </form>
+      </div>
 
-    </div>
 
-</section>
-
-<br>
-<div class="credit">All rights reserved! </div>
-</br>
-
-<script src="js/script.js"></script>
-
-</body>
-</html>
+      <br>
+      <div class="credit">All rights reserved! </div>
+      </section>
+      </body>
+      </html>
