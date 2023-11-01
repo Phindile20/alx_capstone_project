@@ -1,108 +1,103 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>FITNESS ONE ON ONE</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <title>Fitness one on one</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <!-- This is were the header goes -->
 
-<header>
-<!-- Navbar (sit on top) -->
-<div class="header">
-  <div class="Navbar">
-    <div class="topnav">
+      <!-- Navigation bar -->
+
+      <div class="navbar">
+      <div class="topnav">
       <a><b>Fitness one on one</b></a>
-      <a class="active" href="#home">Home</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
       <a href="#workout">Workout</a>
-      <a href="#contact">Contact</a>
       <a href="#state">State</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="#contact">Contact</a>
+      </div>
     </div>
+    </header>
+    
+    <!-- where my website starts -->
+
+    <!-- content -->
+
+    <!-- home -->
+
+    <img src="https://th.bing.com/th/id/OIP.I7d2smOUfay7aOFMH_PdAgHaFj?w=251&h=188&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="stock photo" style="width:100%">
+
+    <div id="home" class="myhome">
+      
+    </div>
+
+    <!-- about -->
+
+    <div id="about" class="myabout">
+      <h1 style="text-align:center;">Fitness one on one </h1>
+      <p>The purpose of this this app is to help users keep track of their workouts, IBM, and fitness journey. the main goal of our app is to provide the user with instructions and examples of one or more types of exercise and physical activity.</p>
+    </div>
+
+    <!-- Workout -->
+
+    <div id="workout" class="myworkout">
+      <h2>Choose a workout video</h2>
+      <table>
+        <tr>
+          <td><iframe width="300" height="150" src="https://www.youtube.com/embed/jdKt8Wrl1rM?si=O4CM74Fjv5zQkRgh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+          <td><iframe width="300" height="150" src="https://www.youtube.com/embed/3M9H6tmu2_w?si=_DHPYvqEIYf-iudM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+          <td><iframe width="300" height="150" src="https://www.youtube.com/embed/d5ax6MR5xMY?si=niNYRsWF2o0ReDZr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+          <td><iframe width="300" height="150" src="https://www.youtube.com/embed/pMoPke5xQ98?si=2CnQ37mvj1iV2k-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+          <td><iframe width="300" height="150" src="https://www.youtube.com/embed/o2bOFYAGvaU?si=0--lpbeUKZf8Ls2y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+          <td><iframe width="300" height="150" src="https://www.youtube.com/embed/FS8fk0tAm9Y?si=ztD7yX3cS6pnHxU6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+        </tr>
+      </table>
+    </div>
+    <!-- state -->
+
+    <div id="state" class="mystate">
+
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact" class="mycontact">
+      <h2>Contact us</h2>
+      <form action="/action_page.php" target="_blank">
+       <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." /required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." /required>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <!-- BUTTON -->
+        <button class="button">Send</button>
+      </form>
+      <br>
+    </div>
+
+    <!-- footer-->
+    <footer>
+    <div class="row copyright">
+  <div class="footer-menu">
+
+  <a href="">Home</a>
+  <a href="">About</a>
+  <a href="">Contact</a>
+  <a href="">Blog</a>
+  <a href="">Social</a>
+
   </div>
-
-  <script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-
+   <p>Copyright &copy; 2023 Phindile Sibiya </p>
 </div>
-</header>
-
-
- <!-- this is the body of page-->
-
-    <!-- this is where you will find the BMI-->
-
-    <div class="container">
-      <div class="box">
-        <h2>BMI CALCULATOR</h2>
-      <div class="content">
-
-        <div class="input">
-          <label for="height">age</label>
-          <input type="text" class="text input" id="age" autocomplete="off" required>
-        </div>
-
-        <div class="gender">
-
-          <label class="container">
-            <input type="radio" name="radio" id="m"><p class="text">Male</p>
-            <span class="checkmark"></span>
-          </label>
-
-          <label class="container">
-            <input type="radio" name="radio" id="f"><p class="text">Female</p>
-            <span class="checkmark"></span>
-          </label>
-
-        </div>
-
-      </div>
-
-      <div class="containerHW">
-      <div class="inputH">
-        <label for="height">Height(cm)</label>
-        <input type="number" id="height" required>
-      </div>
-
-      <div class="inputW">
-        <label for="weight">Weight(kg)</label>
-        <input type="number" id="weight" required>
-      </div>
-    </div>
-
-      <button class="calculate" id="submit" onclick="calculate();">Calculate BMI</button>
-    </div>
-    <div class="result">
-      <p>Your BMI is</p>
-      <div id="result">00.00</div>
-      <p class="comment"></p>
-    </div>
-  
-
-
-  </div>
-</div>
-
-<div id="myModal" class="modal">
-<!-- Modal content -->
-<div class="modal-content">
-<span class="close">&times;</span>
-<p id="modalText"></p>
-</div></div>
-
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
-  <p>FOUNDER: <a href="" title="W3.CSS" target="_blank" class="w3-hover-text-green">Phindile Ayanda Sibiya</a></p>
-</footer>
-
-</body>
-</html>  
+  </body>
+</html>
